@@ -1,0 +1,29 @@
+{
+  "name": "tutien.net-dt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start-0": "babel-node index.js 0",
+    "start-1": "babel-node index.js 1",
+    "start-2": "babel-node index.js 2",
+    "start-3": "babel-node index.js 3",
+    "start-4": "babel-node index.js 4",
+    "start-5": "babel-node index.js 5",
+    "start-6": "babel-node index.js 6",
+    "start-7": "babel-node index.js 7",
+    "start-8": "babel-node index.js 8",
+    "start-9": "babel-node index.js 9",
+    "start-vqmm": "babel-node vqmm.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "cheerio": "^1.0.0-rc.12",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.0.0",
+    "redis": "^4.0.1"
+  }
+}

@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  cron:
+    container_name: tcv_qua
+    build: .
